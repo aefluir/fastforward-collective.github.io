@@ -1,9 +1,23 @@
-    .body {
+body {
         font-family: 'Open Sans';
         font-weight: Bold;
     }
 
-    .mainffw {
+
+/* general */
+.flex {
+    display: flex;
+    gap: var(--asdf, 5rem);
+
+
+}
+/* main */
+
+
+    /* header navigationn bar */
+
+
+.mainffw {
         font-size: 40px;
         color: 4c629e;
         font-weight: Bold;
@@ -12,21 +26,26 @@
         margin: 1%;
     }
 
-    .ffwdesc {
+.ffwdesc {
         font-size: 40px;
         color: 1f1e33;
         margin: 1%;
         text-align: center;
     }
 
-    .jekoimage {
+
+
+/* id */
+    
+
+#jekoimage {
         margin: 0%;
         position: absolute;
         left: 5%;
        
     }
 
-    .jekotitle {
+#jekotitle {
         font-size: 40px;
         color: 4c629e;
         text-align: center;

@@ -1,0 +1,93 @@
+HTML:
+ <nav>
+                <ul id="main-nav" class="main-nav flex">
+                    <li>
+                        <a href="index.html" id="nav-space">
+                                <span aria-hidden="true">00</span>
+                                HOME
+                            </a>
+                        
+                        <li>
+                            <a href="releases.html" id="nav-space">
+                                <span aria-hidden="true">01</span>
+                                RELEASES
+                            </a>
+                        
+                        <li>
+                            <a href="main.html" id="nav-space">
+                                <span aria-hidden="true">02</span>
+                                MEMBER
+                            </a>
+                    </ul>
+                </nav>
+                <p class="mainffw">
+                    Welcome to Fast Forward
+                </p>
+
+                <p class="ffwdesc">
+                Fast Forward Collective (FFW) is a music collective group with 4 members but only jeko is there for now:
+                </p>
+
+                <div id="jekoimage">
+                <a href="https://youtube.com/@jeko_official">
+                <img src="images/ergfd.png" width=200px>
+                </a>
+                <p id="jekotitle">jeko</p>
+                </div>
+
+CSS:
+body {
+        font-family: 'Open Sans';
+        font-weight: Bold;
+    }
+
+
+/* general */
+.flex {
+    display: flex;
+    gap: var(--asdf, 5rem);
+
+
+}
+/* main */
+
+
+    /* header navigationn bar */
+
+
+.mainffw {
+        font-size: 40px;
+        color: 4c629e;
+        font-weight: Bold;
+        font-style: italic;
+        text-align: center;
+        margin: 1%;
+    }
+
+.ffwdesc {
+        font-size: 40px;
+        color: 1f1e33;
+        margin: 1%;
+        text-align: center;
+    }
+
+
+
+/* id */
+    
+
+#jekoimage {
+        margin: 0%;
+        position: absolute;
+        left: 5%;
+       
+    }
+
+#jekotitle {
+        font-size: 40px;
+        color: 4c629e;
+        text-align: center;
+        font-style: italic;
+        margin: 1%;
+        position: relative;
+    }
